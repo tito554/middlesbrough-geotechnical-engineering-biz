@@ -1,0 +1,39 @@
+# Middlesbrough
+
+> Geotechnical engineering company in United States, providing professional services in soil mechanics, foundation engineering and site investigation.
+
+## Services
+- [Bearing Capacity Analysis](https://middlesbrough.geotechnical-engineering.biz/bearing-capacity-analysis/)
+- [Deep Soil Mixing](https://middlesbrough.geotechnical-engineering.biz/deep-soil-mixing/)
+- [Driven Pile Design](https://middlesbrough.geotechnical-engineering.biz/driven-pile-design/)
+- [Dynamic Compaction Design](https://middlesbrough.geotechnical-engineering.biz/dynamic-compaction-design/)
+- [Factor Safety](https://middlesbrough.geotechnical-engineering.biz/factor-safety/)
+- [Field Density](https://middlesbrough.geotechnical-engineering.biz/field-density/)
+- [Field Vane Shear](https://middlesbrough.geotechnical-engineering.biz/field-vane-shear/)
+- [Foundations](https://middlesbrough.geotechnical-engineering.biz/foundations/)
+- [Ground Improvement](https://middlesbrough.geotechnical-engineering.biz/ground-improvement/)
+- [Grouting Design](https://middlesbrough.geotechnical-engineering.biz/grouting-design/)
+- [In Situ Testing](https://middlesbrough.geotechnical-engineering.biz/in-situ-testing/)
+- [Investigation](https://middlesbrough.geotechnical-engineering.biz/investigation/)
+- [Jet Grouting Design](https://middlesbrough.geotechnical-engineering.biz/jet-grouting-design/)
+- [Laboratory](https://middlesbrough.geotechnical-engineering.biz/laboratory/)
+- [Micropile Design](https://middlesbrough.geotechnical-engineering.biz/micropile-design/)
+- [Plate Load](https://middlesbrough.geotechnical-engineering.biz/plate-load/)
+- [Prefabricated Vertical Drain](https://middlesbrough.geotechnical-engineering.biz/prefabricated-vertical-drain/)
+- [Preloading Surcharge Design](https://middlesbrough.geotechnical-engineering.biz/preloading-surcharge-design/)
+- [Retaining Wall Design](https://middlesbrough.geotechnical-engineering.biz/retaining-wall-design/)
+- [Seismic](https://middlesbrough.geotechnical-engineering.biz/seismic/)
+- [Slope Stability Analysis](https://middlesbrough.geotechnical-engineering.biz/slope-stability-analysis/)
+- [Slopes Walls](https://middlesbrough.geotechnical-engineering.biz/slopes-walls/)
+- [Soil Classification](https://middlesbrough.geotechnical-engineering.biz/soil-classification/)
+- [Soil Erosion Analysis](https://middlesbrough.geotechnical-engineering.biz/soil-erosion-analysis/)
+- [Soil Liquefaction Analysis](https://middlesbrough.geotechnical-engineering.biz/soil-liquefaction-analysis/)
+- [Soil Mechanics Study](https://middlesbrough.geotechnical-engineering.biz/soil-mechanics-study/)
+- [Standard Penetration](https://middlesbrough.geotechnical-engineering.biz/standard-penetration/)
+
+## Contact
+- Website: https://middlesbrough.geotechnical-engineering.biz/
+
+## About
+This page provides information about geotechnical engineering services available in United States.
+The company complies with local and international standards including ASTM, ISO and country-specific norms.
