@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
@@ -48,7 +53,7 @@ summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 }
 main p { margin-bottom: 1rem; color: #334155; }
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
-    main { padding: 1.5rem; }
+    
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
 details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
@@ -56,7 +61,7 @@ details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-    .container { padding: 1rem; }
+    
 details[open] summary::before { content: '− '; }
 .sidebar .home {
     display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
@@ -71,7 +76,7 @@ header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
 main section { margin-bottom: 1.5rem; }
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
-    .content-area { flex-direction: column; }
+    
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
 .cat-name:hover{text-decoration:underline;text-underline-offset:3px}
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
@@ -133,10 +138,12 @@ a { color: var(--primary); text-decoration: none; }
 
 footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
 .header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-.cat-row:hover{background:rgba(255,255,255,.05)}</style>
+.cat-row:hover{background:rgba(255,255,255,.05)}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: whit
   .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
   .sidebar nav,.sidebar .nav{display:block!important}
   aside{align-self:start!important}
-img{max-width:100%!important;height:auto!important}</style></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Critical ground factors in Middlesbrough</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>The soft alluvial clays and organic silts beneath Middlesbrough’s riverside districts are prone to significant strength loss under cyclic loading—think of the vibrations from piling or heavy compaction nearby. We have seen cases in the Riverside Park development where the sensitivity ratio exceeded 6, meaning the remoulded strength dropped to less than one-sixth of the peak value. That behaviour, if missed, can lead to progressive failure in embankments or excessive settlement under shallow foundations. The vane shear test catches this by measuring both peak and remoulded torque, giving us the sensitivity index that informs whether a site needs ground improvement or a piled solution.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Q&A</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>How does the field vane shear test differ from a laboratory triaxial test?</summary><p>The vane test measures undrained shear strength directly in the ground, avoiding sample disturbance that can reduce lab triaxial results by 20–40% in soft clays. It gives a quick in-situ value under natural stress conditions, whereas the triaxial test controls drainage and stress paths but requires undisturbed sampling.</p></details><details><summary>What is the typical cost range for a vane shear test in Middlesbrough?</summary><p>For a standard single-point vane test in the Middlesbrough area, the cost is between £480 and £1,190 depending on depth, number of test points, and site access. A full investigation with multiple depths and reporting will be at the higher end of that range.</p></details><details><summary>Which correction factor should be applied to vane test results in Teesside clays?</summary><p>We apply the Bjerrum (1972) correction factor µ, which depends on the plasticity index (PI). For the soft alluvial clays of the Tees floodplain, where PI typically ranges from 35–55%, µ falls between 0.85 and 0.70. This adjustment accounts for the effect of strain rate and anisotropy on the measured strength.</p></details><details><summary>Can the vane shear test be performed in stiff clays or sandy soils?</summary><p>The vane is designed for fine-grained soils with undrained shear strength below about 200 kPa. In stiff clays or dense sands, the torque required may exceed the vane capacity or cause rod failure. For such soils, we recommend a <a href="../standard-penetration/">pile load test or SPT</a> instead.</p></details><details><summary>How long does a vane shear test take on a typical Middlesbrough site?</summary><p>A single vane test at one depth, including setup, vane insertion, torque measurement, and retrieval, takes about 30–45 minutes. For a borehole with tests every 1 m down to 10 m, expect a full day on site. We coordinate with the drilling crew to minimise downtime.</p></details>
             </section>
 

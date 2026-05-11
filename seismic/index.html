@@ -23,6 +23,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
@@ -45,7 +50,7 @@ summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 }
 main p { margin-bottom: 1rem; color: #334155; }
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
-    main { padding: 1.5rem; }
+    
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
 details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
@@ -53,7 +58,7 @@ details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-    .container { padding: 1rem; }
+    
 details[open] summary::before { content: '− '; }
 .sidebar .home {
     display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
@@ -68,7 +73,7 @@ header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
 main section { margin-bottom: 1.5rem; }
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
-    .content-area { flex-direction: column; }
+    
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
 .cat-name:hover{text-decoration:underline;text-underline-offset:3px}
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
@@ -130,10 +135,12 @@ a { color: var(--primary); text-decoration: none; }
 
 footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
 .header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-.cat-row:hover{background:rgba(255,255,255,.05)}</style>
+.cat-row:hover{background:rgba(255,255,255,.05)}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -145,7 +152,9 @@ header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: whit
   .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
   .sidebar nav,.sidebar .nav{display:block!important}
   aside{align-self:start!important}
-img{max-width:100%!important;height:auto!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"description":"Middlesbrough’s seismic category addresses ground response to dynamic loading, critical given the region’s variable superficial deposits overlying Mercia M","inLanguage":"en","@type":"WebPage","name":"Seismic in Middlesbrough – UK","isPartOf":{"@id":"https://middlesbrough.geotechnical-engineering.biz/#website-4806","url":"https://middlesbrough.geotechnical-engineering.biz","@type":"WebSite"},"@id":"https://middlesbrough.geotechnical-engineering.biz/seismic/","url":"https://middlesbrough.geotechnical-engineering.biz/seismic/"},{"@type":"BreadcrumbList","itemListElement":[{"position":1,"item":"https://middlesbrough.geotechnical-engineering.biz/","name":"Home","@type":"ListItem"},{"position":2,"item":"https://middlesbrough.geotechnical-engineering.biz/seismic/","name":"Seismic","@type":"ListItem"}]},{"@type":"ItemList","itemListElement":[{"position":1,"url":"https://middlesbrough.geotechnical-engineering.biz/soil-liquefaction-analysis/","name":"Soil liquefaction analysis","@type":"ListItem"}],"name":"Seismic"}]}</script></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"description":"Middlesbrough’s seismic category addresses ground response to dynamic loading, critical given the region’s variable superficial deposits overlying Mercia M","inLanguage":"en","@type":"WebPage","name":"Seismic in Middlesbrough – UK","isPartOf":{"@id":"https://middlesbrough.geotechnical-engineering.biz/#website-4806","url":"https://middlesbrough.geotechnical-engineering.biz","@type":"WebSite"},"@id":"https://middlesbrough.geotechnical-engineering.biz/seismic/","url":"https://middlesbrough.geotechnical-engineering.biz/seismic/"},{"@type":"BreadcrumbList","itemListElement":[{"position":1,"item":"https://middlesbrough.geotechnical-engineering.biz/","name":"Home","@type":"ListItem"},{"position":2,"item":"https://middlesbrough.geotechnical-engineering.biz/seismic/","name":"Seismic","@type":"ListItem"}]},{"@type":"ItemList","itemListElement":[{"position":1,"url":"https://middlesbrough.geotechnical-engineering.biz/soil-liquefaction-analysis/","name":"Soil liquefaction analysis","@type":"ListItem"}],"name":"Seismic"}]}</script></head>
 <body>
 
 <header>
@@ -213,7 +222,14 @@ img{max-width:100%!important;height:auto!important}</style><script type="applica
             </section>
 
             
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../soil-liquefaction-analysis/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Soil liquefaction analysis</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/licuefaccion-1.webp" alt="Seismic in Middlesbrough" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>Seismic site assessment in Middlesbrough addresses the evaluation of ground behaviour under earthquake loading, a critical consideration given the region's industrial legacy and varied geological profile. The town sits on glacial till overlying Triassic sandstone and Mercia Mudstone, with localised alluvial deposits along the River Tees corridor that can amplify seismic waves. Although the UK experiences low to moderate seismicity, compliance with BS EN 1998-1 (Eurocode 8) and the UK National Annex is mandatory for certain structures, particularly those in consequence class CC2 and above. Our <a href="/investigation/">ground investigation</a> programmes integrate seismic considerations from the outset, combining desk study data with targeted field exploration to characterise the site-specific seismic response.</p>
+<p>Our methodology follows BS 5930:2015+A1:2020 and BS EN 1998-1, employing a suite of in-situ and geophysical techniques to derive shear wave velocity profiles and dynamic soil properties. The <a href="/standard-penetration/">Standard Penetration Test (SPT)</a> provides N-values that correlate with relative density and liquefaction potential in granular soils, while <a href="/in-situ-testing/">in-situ testing</a> such as seismic cone penetration testing (SCPTU) delivers continuous downhole shear wave velocity measurements. For cohesive strata, the <a href="/field-vane-shear/">field vane shear test (VST)</a> determines undrained shear strength, essential for assessing cyclic softening and degradation under seismic excitation. These methods are supplemented by laboratory resonant column and cyclic triaxial tests on undisturbed samples to refine dynamic moduli and damping ratios, ensuring compliance with UK-specific ground investigation standards.</p>
+<p>Middlesbrough's development landscape presents distinct seismic challenges, from the repurposing of former steelworks and docklands to new residential schemes on brownfield land. The Teesworks regeneration area, for instance, involves deep alluvial sequences where <a href="/field-density/">field density testing</a> via the sand cone method verifies compaction of engineered fills placed to mitigate liquefaction risks. Infrastructure projects such as bridge foundations and flood defence walls along the Tees require careful evaluation of soil-structure interaction under seismic loading, often triggering the need for site-specific response analysis rather than simplified spectral shape approaches. Our team has supported geotechnical designers on multiple local schemes where seismic hazard, however modest, governs foundation performance and earth retention design.</p>
+<img src="/img/licuefaccion-1.webp" alt="Seismic in Middlesbrough" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+
+<p>We deliver a structured seismic assessment process beginning with probabilistic seismic hazard analysis calibrated to the British Geological Survey seismicity model, followed by targeted field acquisition and advanced laboratory testing. The output is a comprehensive Ground Investigation Report containing shear wave velocity profiles, site classification per BS EN 1998-1, liquefaction assessment where applicable, and seismic design parameters including peak ground acceleration and response spectra. Our value lies in translating complex seismic data into clear, actionable geotechnical parameters that enable structural engineers to optimise foundation design while maintaining full compliance with UK regulatory requirements, reducing both risk and unnecessary conservatism for Middlesbrough developments.</p></div></section></main>
     </div>
 </div>
 

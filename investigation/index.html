@@ -23,6 +23,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
@@ -45,7 +50,7 @@ summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 }
 main p { margin-bottom: 1rem; color: #334155; }
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
-    main { padding: 1.5rem; }
+    
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
 details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
@@ -53,7 +58,7 @@ details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-    .container { padding: 1rem; }
+    
 details[open] summary::before { content: '− '; }
 .sidebar .home {
     display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
@@ -68,7 +73,7 @@ header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
 main section { margin-bottom: 1.5rem; }
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
-    .content-area { flex-direction: column; }
+    
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
 .cat-name:hover{text-decoration:underline;text-underline-offset:3px}
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
@@ -130,10 +135,12 @@ a { color: var(--primary); text-decoration: none; }
 
 footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
 .header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-.cat-row:hover{background:rgba(255,255,255,.05)}</style>
+.cat-row:hover{background:rgba(255,255,255,.05)}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -145,7 +152,9 @@ header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: whit
   .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
   .sidebar nav,.sidebar .nav{display:block!important}
   aside{align-self:start!important}
-img{max-width:100%!important;height:auto!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"description":"Ground investigation in Middlesbrough addresses the variable site conditions shaped by glacial till, alluvial deposits along the Tees, and historic industr","inLanguage":"en","@type":"WebPage","name":"Investigation in Middlesbrough – UK","isPartOf":{"@id":"https://middlesbrough.geotechnical-engineering.biz/#website-4806","url":"https://middlesbrough.geotechnical-engineering.biz","@type":"WebSite"},"@id":"https://middlesbrough.geotechnical-engineering.biz/investigation/","url":"https://middlesbrough.geotechnical-engineering.biz/investigation/"},{"@type":"BreadcrumbList","itemListElement":[{"position":1,"item":"https://middlesbrough.geotechnical-engineering.biz/","name":"Home","@type":"ListItem"},{"position":2,"item":"https://middlesbrough.geotechnical-engineering.biz/investigation/","name":"Investigation","@type":"ListItem"}]},{"@type":"ItemList","itemListElement":[{"position":1,"url":"https://middlesbrough.geotechnical-engineering.biz/standard-penetration/","name":"SPT (Standard Penetration Test)","@type":"ListItem"}],"name":"Investigation"}]}</script></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"description":"Ground investigation in Middlesbrough addresses the variable site conditions shaped by glacial till, alluvial deposits along the Tees, and historic industr","inLanguage":"en","@type":"WebPage","name":"Investigation in Middlesbrough – UK","isPartOf":{"@id":"https://middlesbrough.geotechnical-engineering.biz/#website-4806","url":"https://middlesbrough.geotechnical-engineering.biz","@type":"WebSite"},"@id":"https://middlesbrough.geotechnical-engineering.biz/investigation/","url":"https://middlesbrough.geotechnical-engineering.biz/investigation/"},{"@type":"BreadcrumbList","itemListElement":[{"position":1,"item":"https://middlesbrough.geotechnical-engineering.biz/","name":"Home","@type":"ListItem"},{"position":2,"item":"https://middlesbrough.geotechnical-engineering.biz/investigation/","name":"Investigation","@type":"ListItem"}]},{"@type":"ItemList","itemListElement":[{"position":1,"url":"https://middlesbrough.geotechnical-engineering.biz/standard-penetration/","name":"SPT (Standard Penetration Test)","@type":"ListItem"}],"name":"Investigation"}]}</script></head>
 <body>
 
 <header>
@@ -213,7 +222,14 @@ img{max-width:100%!important;height:auto!important}</style><script type="applica
             </section>
 
             
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../standard-penetration/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">SPT (Standard Penetration Test)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/calicatas-exploratorias-1.webp" alt="Investigation in Middlesbrough" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>In Middlesbrough, a thorough ground <a href="/investigation/">investigation</a> is the critical first step for any construction or civil engineering project, providing essential data on subsurface conditions. The local geology is dominated by glacial till overlying the Mercia Mudstone Group, with alluvial deposits along the River Tees corridor, creating variable ground conditions that demand careful assessment. Our investigations address these complexities, identifying potential hazards such as soft clays, buried obstructions from the area’s industrial past, and shallow groundwater, all in accordance with BS 5930:2015+A1:2020, the UK code of practice for ground investigations, and Eurocode 7.</p>
+<p>Our field methodologies employ a combination of intrusive and in‑situ techniques to build a robust geotechnical model. We routinely carry out cable percussive and rotary drilling to recover samples for <a href="/laboratory/">laboratory</a> testing, complemented by the <a href="/standard-penetration/">Standard Penetration Test (SPT)</a> to measure the density and consistency of granular and cohesive soils. In cohesive strata, <a href="/field-vane-shear/">field vane shear testing (VST)</a> provides undrained shear strength profiles with minimal disturbance. These in‑situ tests are executed following the procedural standards of BS EN ISO 22476, ensuring data repeatability and direct applicability to foundation design in the Teesside basin.</p>
+<p>Projects across Middlesbrough regularly require targeted investigation strategies. For the redevelopment of brownfield sites in Middlehaven, we integrate <a href="/in-situ-testing/">in‑situ testing</a> such as plate load tests to evaluate bearing capacity on made ground, while compaction quality on earthworks for the South Tees Development Corporation area is verified through the <a href="/field-density/">field density test (sand cone method)</a>. Residential schemes on the fringes of the North York Moors demand careful characterisation of variable glacial tills, where our logging to BS 5930 and subsequent <a href="/soil-classification/">soil classification</a> to USCS and AASHTO standards informs cut‑and‑fill assessments and foundation selection.</p>
+<img src="/img/calicatas-exploratorias-1.webp" alt="Investigation in Middlesbrough" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+
+<p>A typical Middlesbrough investigation follows a phased approach: desk study and walkover, intrusive fieldwork with sampling and in‑situ tests, accredited laboratory analysis, and interpretive reporting. Deliverables include AGS 4.0 digital data, factual and interpretative reports, and clear geotechnical parameters for design. By combining local geological knowledge with rigorous UK standards, we deliver a ground model that reduces uncertainty, controls project risk, and provides the reliable basis needed for safe, cost‑effective engineering decisions.</p></div></section></main>
     </div>
 </div>
 

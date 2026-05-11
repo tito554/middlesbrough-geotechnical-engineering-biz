@@ -23,6 +23,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
@@ -45,7 +50,7 @@ summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 }
 main p { margin-bottom: 1rem; color: #334155; }
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
-    main { padding: 1.5rem; }
+    
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
 details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
@@ -53,7 +58,7 @@ details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-    .container { padding: 1rem; }
+    
 details[open] summary::before { content: '− '; }
 .sidebar .home {
     display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
@@ -68,7 +73,7 @@ header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
 main section { margin-bottom: 1.5rem; }
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
-    .content-area { flex-direction: column; }
+    
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
 .cat-name:hover{text-decoration:underline;text-underline-offset:3px}
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
@@ -130,10 +135,12 @@ a { color: var(--primary); text-decoration: none; }
 
 footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
 .header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-.cat-row:hover{background:rgba(255,255,255,.05)}</style>
+.cat-row:hover{background:rgba(255,255,255,.05)}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -145,7 +152,9 @@ header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: whit
   .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
   .sidebar nav,.sidebar .nav{display:block!important}
   aside{align-self:start!important}
-img{max-width:100%!important;height:auto!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"description":"Ground improvement in Middlesbrough addresses the challenges of weak alluvial soils, historic fill, and former industrial land along the Tees Valley. Local","inLanguage":"en","@type":"WebPage","name":"Ground improvement in Middlesbrough – UK","isPartOf":{"@id":"https://middlesbrough.geotechnical-engineering.biz/#website-4806","url":"https://middlesbrough.geotechnical-engineering.biz","@type":"WebSite"},"@id":"https://middlesbrough.geotechnical-engineering.biz/ground-improvement/","url":"https://middlesbrough.geotechnical-engineering.biz/ground-improvement/"},{"@type":"BreadcrumbList","itemListElement":[{"position":1,"item":"https://middlesbrough.geotechnical-engineering.biz/","name":"Home","@type":"ListItem"},{"position":2,"item":"https://middlesbrough.geotechnical-engineering.biz/ground-improvement/","name":"Ground improvement","@type":"ListItem"}]},{"@type":"ItemList","itemListElement":[{"position":1,"url":"https://middlesbrough.geotechnical-engineering.biz/deep-soil-mixing/","name":"Deep Soil Mixing (DSM) design","@type":"ListItem"},{"position":2,"url":"https://middlesbrough.geotechnical-engineering.biz/dynamic-compaction-design/","name":"Dynamic compaction design","@type":"ListItem"},{"position":3,"url":"https://middlesbrough.geotechnical-engineering.biz/grouting-design/","name":"Grouting design","@type":"ListItem"},{"position":4,"url":"https://middlesbrough.geotechnical-engineering.biz/jet-grouting-design/","name":"Jet grouting design","@type":"ListItem"},{"position":5,"url":"https://middlesbrough.geotechnical-engineering.biz/prefabricated-vertical-drain/","name":"Prefabricated vertical drain (PVD) design","@type":"ListItem"},{"position":6,"url":"https://middlesbrough.geotechnical-engineering.biz/preloading-surcharge-design/","name":"Preloading with surcharge design","@type":"ListItem"}],"name":"Ground improvement"}]}</script></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"description":"Ground improvement in Middlesbrough addresses the challenges of weak alluvial soils, historic fill, and former industrial land along the Tees Valley. Local","inLanguage":"en","@type":"WebPage","name":"Ground improvement in Middlesbrough – UK","isPartOf":{"@id":"https://middlesbrough.geotechnical-engineering.biz/#website-4806","url":"https://middlesbrough.geotechnical-engineering.biz","@type":"WebSite"},"@id":"https://middlesbrough.geotechnical-engineering.biz/ground-improvement/","url":"https://middlesbrough.geotechnical-engineering.biz/ground-improvement/"},{"@type":"BreadcrumbList","itemListElement":[{"position":1,"item":"https://middlesbrough.geotechnical-engineering.biz/","name":"Home","@type":"ListItem"},{"position":2,"item":"https://middlesbrough.geotechnical-engineering.biz/ground-improvement/","name":"Ground improvement","@type":"ListItem"}]},{"@type":"ItemList","itemListElement":[{"position":1,"url":"https://middlesbrough.geotechnical-engineering.biz/deep-soil-mixing/","name":"Deep Soil Mixing (DSM) design","@type":"ListItem"},{"position":2,"url":"https://middlesbrough.geotechnical-engineering.biz/dynamic-compaction-design/","name":"Dynamic compaction design","@type":"ListItem"},{"position":3,"url":"https://middlesbrough.geotechnical-engineering.biz/grouting-design/","name":"Grouting design","@type":"ListItem"},{"position":4,"url":"https://middlesbrough.geotechnical-engineering.biz/jet-grouting-design/","name":"Jet grouting design","@type":"ListItem"},{"position":5,"url":"https://middlesbrough.geotechnical-engineering.biz/prefabricated-vertical-drain/","name":"Prefabricated vertical drain (PVD) design","@type":"ListItem"},{"position":6,"url":"https://middlesbrough.geotechnical-engineering.biz/preloading-surcharge-design/","name":"Preloading with surcharge design","@type":"ListItem"}],"name":"Ground improvement"}]}</script></head>
 <body>
 
 <header>
@@ -213,7 +222,14 @@ img{max-width:100%!important;height:auto!important}</style><script type="applica
             </section>
 
             
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../deep-soil-mixing/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Deep Soil Mixing (DSM) design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../dynamic-compaction-design/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Dynamic compaction design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../grouting-design/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Grouting design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../jet-grouting-design/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Jet grouting design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../prefabricated-vertical-drain/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Prefabricated vertical drain (PVD) design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../preloading-surcharge-design/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Preloading with surcharge design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/columnas-grava-4.webp" alt="Ground improvement in Middlesbrough" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>Effective ground improvement in Middlesbrough demands a thorough understanding of the underlying geology, which is dominated by glacial till, laminated clays, and alluvial deposits from the River Tees. These soil conditions frequently present challenges such as low bearing capacity, potential for differential settlement, and the presence of weak, compressible layers. A robust improvement strategy begins with a comprehensive geotechnical <a href="/investigation/">investigation</a>, which is essential for characterising the site-specific ground profile and identifying hazards like abandoned mine workings in the underlying Middle Coal Measures. All works are scoped in accordance with BS 5930 and BS EN 1997-2 to ensure the resulting ground model is reliable and compliant with UK regulatory requirements.</p>
+<p>The selection of an appropriate ground improvement methodology is directly guided by precise geotechnical parameters obtained through a combination of in-situ and laboratory testing. We typically deploy the <a href="/standard-penetration/">Standard Penetration Test (SPT)</a> to assess the relative density of granular soils and the consistency of cohesive strata, providing crucial data for settlement analysis. For sensitive, low-strength clays, the <a href="/field-vane-shear/">field vane shear test (VST)</a> is critical for determining the undrained shear strength without sample disturbance. These field tests are complemented by advanced <a href="/laboratory/">laboratory</a> testing programmes, where <a href="/soil-classification/">soil classification</a> to BS EN ISO 14688 and shear strength testing are carried out to define the engineering properties needed for designing solutions like vibro stone columns or deep soil mixing.</p>
+<p>Typical projects across Middlesbrough, from the redevelopment of brownfield sites in Middlehaven to new industrial facilities in Teesworks, rely on these integrated services. A common requirement is the verification of compacted granular fill, where the <a href="/field-density/">field density test (sand cone method)</a> provides a direct measurement of in-place density and moisture content against specification. For shallow foundation design on improved ground, a <a href="/plate-load/">plate load test (PLT)</a> is often performed to validate the design modulus of subgrade reaction and confirm that the treated ground meets the specified settlement and bearing capacity criteria under a load representative of the proposed structure.</p>
+<img src="/img/vibrocompactacion-1.webp" alt="Ground improvement in Middlesbrough" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+
+<p>Our process delivers a complete package from initial feasibility to validation. Following the detailed <a href="/in-situ-testing/">in-situ testing</a> phase and laboratory analysis, we produce an interpretative report with clear ground improvement recommendations. The key deliverable is a technically rigorous Ground Investigation Report (GIR) and Geotechnical Design Report (GDR), providing the design parameters and verification methodologies that allow your construction team to proceed with confidence. This integrated approach de-risks ground-related uncertainties and ensures a technically sound, cost-effective foundation solution tailored to the specific ground conditions of the Teesside region.</p></div></section></main>
     </div>
 </div>
 

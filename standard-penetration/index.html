@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
@@ -48,7 +53,7 @@ summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 }
 main p { margin-bottom: 1rem; color: #334155; }
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
-    main { padding: 1.5rem; }
+    
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
 details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
@@ -56,7 +61,7 @@ details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-    .container { padding: 1rem; }
+    
 details[open] summary::before { content: '− '; }
 .sidebar .home {
     display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
@@ -71,7 +76,7 @@ header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
 main section { margin-bottom: 1.5rem; }
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
-    .content-area { flex-direction: column; }
+    
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
 .cat-name:hover{text-decoration:underline;text-underline-offset:3px}
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
@@ -133,10 +138,12 @@ a { color: var(--primary); text-decoration: none; }
 
 footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
 .header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-.cat-row:hover{background:rgba(255,255,255,.05)}</style>
+.cat-row:hover{background:rgba(255,255,255,.05)}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: whit
   .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
   .sidebar nav,.sidebar .nav{display:block!important}
   aside{align-self:start!important}
-img{max-width:100%!important;height:auto!important}</style></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Critical ground factors in Middlesbrough</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>Glacial Till across central Middlesbrough usually gives N-values between 15 and 35, which is fine for conventional shallow foundations. But along the river corridor, soft alluvial clays and peat can drop to N-values below 5, especially near Newport Bridge and Middlehaven. In those zones, the risk of differential settlement is real, and SPT data alone may not be enough — we often recommend additional dissipation testing or a estudio de licuefacción when loose saturated sands are present. Ignoring these local variations has led to cracked floor slabs and tilted retaining walls in past developments here.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Q&A</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>What is the typical cost range for an SPT investigation in Middlesbrough?</summary><p>For a standard borehole with SPT at 1.5 m intervals to 15 m depth, including mobilisation, sampling, and a factual report, you should budget between £420 and £600 per borehole. Prices vary with access conditions, number of tests, and whether you need disturbed or undisturbed samples. We provide a fixed quote after a quick site walkover.</p></details><details><summary>How do N-values from SPT relate to bearing capacity for Teesside soils?</summary><p>We apply Terzaghi's bearing capacity factors and Eurocode 7 partial factors to correlate N-values with allowable bearing pressure. In Middlesbrough's Glacial Till, N-values of 15–35 typically yield allowable pressures of 100–250 kPa. In soft alluvium along the Tees, N-values below 5 translate to very low capacities, often requiring deep foundations or ground improvement.</p></details><details><summary>At what depth should SPT stop in Middlesbrough bedrock?</summary><p>We generally stop SPT when we reach weathered sandstone or mudstone with N-values exceeding 50 for three consecutive tests, and we have at least 1.5 m of rock core to confirm the horizon. In central Middlesbrough, bedrock is often encountered between 8 and 15 m depth. Refusal is defined as 50 blows for less than 75 mm penetration, which we report with the hammer energy record.</p></details>
             </section>
 

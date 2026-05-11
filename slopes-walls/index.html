@@ -23,6 +23,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
@@ -45,7 +50,7 @@ summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 }
 main p { margin-bottom: 1rem; color: #334155; }
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
-    main { padding: 1.5rem; }
+    
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
 details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
@@ -53,7 +58,7 @@ details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-    .container { padding: 1rem; }
+    
 details[open] summary::before { content: '− '; }
 .sidebar .home {
     display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
@@ -68,7 +73,7 @@ header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
 main section { margin-bottom: 1.5rem; }
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
-    .content-area { flex-direction: column; }
+    
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
 .cat-name:hover{text-decoration:underline;text-underline-offset:3px}
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
@@ -130,10 +135,12 @@ a { color: var(--primary); text-decoration: none; }
 
 footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
 .header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-.cat-row:hover{background:rgba(255,255,255,.05)}</style>
+.cat-row:hover{background:rgba(255,255,255,.05)}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -145,7 +152,9 @@ header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: whit
   .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
   .sidebar nav,.sidebar .nav{display:block!important}
   aside{align-self:start!important}
-img{max-width:100%!important;height:auto!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"description":"Slopes and walls in Middlesbrough demand careful assessment where the Mercia Mudstone Group and glacial till create variable ground conditions. Our slope s","inLanguage":"en","@type":"WebPage","name":"Slopes & Walls in Middlesbrough – UK","isPartOf":{"@id":"https://middlesbrough.geotechnical-engineering.biz/#website-4806","url":"https://middlesbrough.geotechnical-engineering.biz","@type":"WebSite"},"@id":"https://middlesbrough.geotechnical-engineering.biz/slopes-walls/","url":"https://middlesbrough.geotechnical-engineering.biz/slopes-walls/"},{"@type":"BreadcrumbList","itemListElement":[{"position":1,"item":"https://middlesbrough.geotechnical-engineering.biz/","name":"Home","@type":"ListItem"},{"position":2,"item":"https://middlesbrough.geotechnical-engineering.biz/slopes-walls/","name":"Slopes & Walls","@type":"ListItem"}]},{"@type":"ItemList","itemListElement":[{"position":1,"url":"https://middlesbrough.geotechnical-engineering.biz/factor-safety/","name":"Factor of safety (FS) calculation","@type":"ListItem"},{"position":2,"url":"https://middlesbrough.geotechnical-engineering.biz/retaining-wall-design/","name":"Retaining wall design","@type":"ListItem"},{"position":3,"url":"https://middlesbrough.geotechnical-engineering.biz/slope-stability-analysis/","name":"Slope stability analysis","@type":"ListItem"},{"position":4,"url":"https://middlesbrough.geotechnical-engineering.biz/soil-erosion-analysis/","name":"Soil erosion analysis","@type":"ListItem"}],"name":"Slopes & Walls"}]}</script></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"description":"Slopes and walls in Middlesbrough demand careful assessment where the Mercia Mudstone Group and glacial till create variable ground conditions. Our slope s","inLanguage":"en","@type":"WebPage","name":"Slopes & Walls in Middlesbrough – UK","isPartOf":{"@id":"https://middlesbrough.geotechnical-engineering.biz/#website-4806","url":"https://middlesbrough.geotechnical-engineering.biz","@type":"WebSite"},"@id":"https://middlesbrough.geotechnical-engineering.biz/slopes-walls/","url":"https://middlesbrough.geotechnical-engineering.biz/slopes-walls/"},{"@type":"BreadcrumbList","itemListElement":[{"position":1,"item":"https://middlesbrough.geotechnical-engineering.biz/","name":"Home","@type":"ListItem"},{"position":2,"item":"https://middlesbrough.geotechnical-engineering.biz/slopes-walls/","name":"Slopes & Walls","@type":"ListItem"}]},{"@type":"ItemList","itemListElement":[{"position":1,"url":"https://middlesbrough.geotechnical-engineering.biz/factor-safety/","name":"Factor of safety (FS) calculation","@type":"ListItem"},{"position":2,"url":"https://middlesbrough.geotechnical-engineering.biz/retaining-wall-design/","name":"Retaining wall design","@type":"ListItem"},{"position":3,"url":"https://middlesbrough.geotechnical-engineering.biz/slope-stability-analysis/","name":"Slope stability analysis","@type":"ListItem"},{"position":4,"url":"https://middlesbrough.geotechnical-engineering.biz/soil-erosion-analysis/","name":"Soil erosion analysis","@type":"ListItem"}],"name":"Slopes & Walls"}]}</script></head>
 <body>
 
 <header>
@@ -208,6 +217,8 @@ img{max-width:100%!important;height:auto!important}</style><script type="applica
 
             <section>
                 <h2>Our services</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>We offer three complementary services for bearing capacity <a href="/" data-interlink="1">analysis</a> in Middlesbrough, each designed for a different project scale and ground condition.</p>
                 <style>.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#171717;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}.servicios-grid a.servicio-link:hover h3{color:#171717}.servicios-grid a.servicio-link:hover{border-color:#171717;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}</style><div class="servicios-grid"><div class="servicio"><h3>Prescriptive Bearing Capacity (Residential)</h3><p>For houses, garages, and small extensions. We drill one or two boreholes per plot, run SPT and laboratory <a href="/" data-interlink="1">triaxial tests</a>, and provide an allowable bearing capacity value with a clear factor of safety. Typical scope: 2 boreholes to 6 m depth, 3 SPT tests per borehole, one triaxial set per stratum. Report delivered within 7 working days.</p></div><div class="servicio"><h3>Analytical Bearing Capacity (Commercial & Industrial)</h3><p>For warehouses, office blocks, and light industrial units. We use a combination of boreholes, pressuremeter tests, and <a href="../plate-load/" data-interlink="1">plate load tests</a> to derive bearing capacity under serviceability and ultimate limit states. The report includes settlement predictions for 25, 50, and 100 kPa load increments. Suitable for sites with variable made ground or soft alluvium.</p></div><div class="servicio"><h3>Bearing Capacity for Piled Foundations</h3><p>When shallow footings are not feasible (deep soft soils, high groundwater), we assess end-bearing and shaft friction for piles. The <a href="/" data-interlink="1">analysis</a> uses SPT N-values and laboratory shear strength parameters to recommend pile type, length, and working load. We also provide negative skin friction estimates for sites with consolidating fill.</p></div></div>
             </section>
@@ -219,6 +230,8 @@ img{max-width:100%!important;height:auto!important}</style><script type="applica
 
             <section>
                 <h2>Coverage in Middlesbrough</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <link rel="stylesheet" href="/css/leaflet-4806.css"/>
                 <div id="mapa-ciudad"></div>
                 <script src="/js/leaflet-4806.js"></script>
