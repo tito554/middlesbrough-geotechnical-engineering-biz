@@ -175,6 +175,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#1B4965) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head>
 <body>
 
@@ -245,7 +281,7 @@ header.hero, .hero { position: relative !important; }
 
             <section>
                 <h2>Q&A</h2>
-                <details><summary>What are the typical ground conditions for new developments in Middlesbrough?</summary><p>Most sites feature glacial till (boulder clay) over Mercia Mudstone, with alluvial clays and sands near the River Tees. Made ground is common in former industrial areas. Groundwater is often high, especially in low-lying zones. We always recommend a phased ground investigation to confirm soil variability and groundwater regime before foundation design.</p></details><details><summary>How does the local geology affect foundation design in Middlesbrough?</summary><p>Soft alluvial clays and loose sands can cause excessive settlement if not properly addressed. Shallow foundations may be feasible on stiff glacial till, but deeper piled foundations are often needed where soft deposits are thick or where high loads are involved. Improvement techniques like preloading or vertical drains are frequently used to improve bearing capacity and reduce post-construction settlement.</p></details><details><summary>Which UK regulations govern geotechnical investigations in Middlesbrough?</summary><p>The primary framework is Eurocode 7 (BS EN 1997-1 and -2) with the UK National Annex. Site investigation follows BS 5930, and contaminated land assessment follows BS 10175. Local planning authorities may also require compliance with the Tees Valley Combined Authority’s guidance on ground conditions and flood risk. All testing must be performed to BS 1377 or relevant ISO standards.</p></details><details><summary>What is the typical timeline for a ground investigation in Middlesbrough?</summary><p>For a medium-sized residential or commercial site, a Phase 1 desk study takes 1–2 weeks, followed by 2–4 weeks of fieldwork (trial pits, boreholes, SPTs) and 3–6 weeks for laboratory testing and reporting. The total timeline is typically 6–12 weeks, depending on site access, weather, and the complexity of ground conditions. We always provide a detailed programme at the proposal stage.</p></details>
+                <details><summary>What are the typical ground conditions for new developments in Middlesbrough?</summary><p>Most sites feature glacial till (boulder clay) over Mercia Mudstone, with alluvial clays and sands near the River Tees. Made ground is common in former industrial areas. Groundwater is often high, especially in low-lying zones. We always recommend a phased ground investigation to confirm soil variability and groundwater regime before foundation design.</p></details><details><summary>How does the local geology affect foundation design in Middlesbrough?</summary><p>Soft alluvial clays and loose sands can cause excessive settlement if not properly addressed. Shallow <a href="/foundations/">foundations</a> may be feasible on stiff glacial till, but deeper piled foundations are often needed where soft deposits are thick or where high loads are involved. Improvement techniques like preloading or vertical drains are frequently used to improve bearing capacity and reduce post-construction settlement.</p></details><details><summary>Which UK regulations govern geotechnical investigations in Middlesbrough?</summary><p>The primary framework is Eurocode 7 (BS EN 1997-1 and -2) with the UK National Annex. Site investigation follows BS 5930, and contaminated land assessment follows BS 10175. Local planning authorities may also require compliance with the Tees Valley Combined Authority’s guidance on ground conditions and flood risk. All testing must be performed to BS 1377 or relevant ISO standards.</p></details><details><summary>What is the typical timeline for a ground investigation in Middlesbrough?</summary><p>For a medium-sized residential or commercial site, a Phase 1 desk study takes 1–2 weeks, followed by 2–4 weeks of fieldwork (trial pits, boreholes, SPTs) and 3–6 weeks for laboratory testing and reporting. The total timeline is typically 6–12 weeks, depending on site access, weather, and the complexity of ground conditions. We always provide a detailed programme at the proposal stage.</p></details>
             </section>
 
             <section>
